@@ -4,11 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d dist"
-  },
-  "scripts": {
     "build": "babel --presets es2015 src -d dist"
-
   },
   "author": "",
   "license": "ISC",
