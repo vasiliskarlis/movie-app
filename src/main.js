@@ -1,5 +1,5 @@
-var program = require('commander');
-var fetch = require('node-fetch');
+let program = require('commander');
+let fetch = require('node-fetch');
 
 program
   .version('0.1.0')
@@ -8,9 +8,9 @@ program
 let y = 'http://www.omdbapi.com/?i=' + program.imdbID + '&apikey=8e7cd55'
 
 fetch(y)
-    .then(function(res) {
+    .then((res) => {
         return res.json();
-    }).then(function(json) {
+    }).then((json) => {
         console.log('Title: ' + json.Title);
         console.log('Year: ' + json.Year);
         console.log('Rated: ' + json.Rated);
