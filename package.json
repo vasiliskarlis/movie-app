@@ -13,6 +13,7 @@
     "babel-preset-es2015": "^6.24.1"
   },
   "dependencies": {
+    "commander": "^2.12.2",
     "node-fetch": "^1.7.3"
   }
 }
